@@ -1,0 +1,182 @@
+/*
+File Name: styles.css
+Student Name: Pavanth Pachipala
+Student ID: 301478132
+Date: September 24, 2024
+*/
+
+/* === Image Styling === */
+/* Smooth transition effect when hovering over the image */
+img{
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Slight zoom effect on image hover */
+img:hover {
+  transform: scale(1.1);
+}
+
+/* === Button Styling === */
+/* Basic button style with smooth transition for background color */
+button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Darker green on button hover */
+button:hover{
+  background-color: #45a049;
+}
+
+/* === Navigation Links Styling === */
+/* Add spacing between navigation items */
+nav li{
+  margin-right: 20px;
+}
+
+/* Default link styling with transition for color */
+nav li a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+/* Green color on navigation link hover */
+nav li a:hover{
+  color: #4CAF50;
+}
+
+/* === Fade Animation for Transitions === */
+/* Initial state for fade-in */
+.fade-enter {
+  opacity: 0;
+}
+
+/* Active state for fade-in transition */
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+/* Initial state for fade-out */
+.fade-exit {
+  opacity: 1;
+}
+
+/* Active state for fade-out transition */
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/* === Flexbox Centering === */
+/* Center the main container using Flexbox */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center;    /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
+  min-height: 100vh;      /* Make the container take the full height of the viewport */
+  padding: 20px;
+  text-align: center;      /* Center text */
+  background-color: #f7f7f7; /* Light background for contrast */
+}
+
+/* === Text Styling === */
+/* Add padding to the text for readability */
+p {
+  margin: 20px 0;
+  font-size: 1.2rem; /* Increase font size for clarity */
+  line-height: 1.5;  /* Add line height for better readability */
+  color: #333;       /* Darker text color */
+}
+
+/* === Image Styling (Circular) === */
+/* Style the image */
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 20px; /* Add space between image and text */
+}
+
+
+/* Style the download button */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+/* Center the main container using Flexbox */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center;    /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
+  min-height: 100vh;      /* Make the container take the full height of the viewport */
+  padding: 20px;
+  text-align: center;      /* Center text */
+  background-color: #f7f7f7; /* Light background for contrast */
+}
+
+/* Add padding to the text for readability */
+p {
+  margin: 20px 0;
+  font-size: 1.2rem; /* Increase font size for clarity */
+  line-height: 1.5;  /* Add line height for better readability */
+  color: #333;       /* Darker text color */
+}
+
+/* Style the image */
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 20px; /* Add space between image and text */
+}
+
+/* Style the download button */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+/* Darker green background on button hover */
+a:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* Style for the main container to display items side by side */
+.main-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: space-around; /* Space items evenly */
+  padding: 20px; /* Optional padding */
+}
+
+
+/* Style each section within the main container */
+.main-container > div {
+  flex: 1 1 30%; /* Grow and shrink, with a base width of 30% */
+  margin: 10px; /* Space between sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* Background color */
+  padding: 20px; /* Padding for content */
+}
+

@@ -1,0 +1,71 @@
+/* Navbar styles */
+.navbar {
+    background-color: white; /* White background */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.navbar-list {
+    display: flex; /* Use Flexbox to arrange items in a row */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    justify-content: center; /* Center items horizontally */
+}
+
+.navbar-item {
+    margin: 0 15px; /* Space between items */
+}
+
+.navbar-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-item a:hover {
+    color: #007BFF; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+
+/* Flexbox layout to align items in a row */
+nav ul {
+    display: flex;
+    justify-content: center;  /* Center the nav items */
+    list-style-type: none;    /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    background-color: #fff;   /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for the navbar */
+  }
+  
+  /* Style the list items */
+  nav ul li {
+    display: flex;            /* Display the links in a row */
+    gap: 20px;                /* Add space between each link */
+    padding: 10px 0;
+  }
+  /*
+File Name: App.test.js
+Student Name: Pavanth Pachipala
+Student ID: 301478132
+Date: September 24, 2024
+*/
+
+  /* Style for the individual links */
+  nav ul li a {
+    text-decoration: none;    /* Remove underline from links */
+    color: #333;              /* Dark text color */
+    font-size: 1.2rem;        /* Slightly larger font */
+    padding: 10px 20px;       /* Add padding to links */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect for the links */
+  nav ul li a:hover {
+    background-color: #f0f0f0;  /* Light grey background on hover */
+    color: #007BFF;             /* Blue text color on hover */
+  }
+  
