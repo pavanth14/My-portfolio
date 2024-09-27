@@ -8,10 +8,13 @@ Date: September 24, 2024
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
+import Logo from './Logo';
 
 function navbar(){
     return(
         <nav >
+            {/* Include the Logo component */}
+            <Logo />
             <ul>
 
                 <li >
