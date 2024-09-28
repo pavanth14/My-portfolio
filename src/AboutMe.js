@@ -27,7 +27,7 @@ function AboutMe() {
                 <p className="about-greeting">{getCurrentGreeting()} Welcome to my portfolio.</p>
                 <img src={myImage} alt="Pavanth Pachipala" className="about-image" />
                 <p>Hi, I am Pavanth Pachipala. I am a web developer specializing in React and front-end development.</p>
-                <a href="./assets/Pavanth Pachipala Assignment Resume.docx" download className="custom-button">Download my Resume</a>
+                <a href="https://drive.google.com/file/d/1Lt3GqGzRZw3tQ_sGMLqITv9m2GAvSLwA/view?usp=sharing" download className="custom-button">Download my Resume</a>
             </div>
         </div>
     );
